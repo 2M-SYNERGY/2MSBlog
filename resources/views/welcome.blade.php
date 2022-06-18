@@ -2,227 +2,28 @@
 @section('title', 'Acceuil')
 
 @section('content')
-     <!-- Post Slide Start -->
-     <section class="post-slide">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="post-img">
-                                <img src="img/post-slide/p-slide-1.jpg" alt="post img">
-                                <div class="title-tag">
-                                    <a href="#">Life</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="title">
-                                <a href="#">Every time people have to fight and live, This is human life</a>
-                            </div>
-                            <p>15-Augu-2020 | 5mins</p>
-                            <div class="link">
-                                <a href="#">Continue Reading......</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-mg-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="post-img">
-                                <img src="img/post-slide/p-slide-2.jpg" alt="post img">
-                                <div class="title-tag">
-                                    <a href="#">Lifestyle</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="title">
-                                <a href="#">Ten color pallets You can use it in your design at any time</a>
-                            </div>
-                            <p>15-Augu-2020 | 5mins</p>
-                            <div class="link">
-                                <a href="#">Continue Reading......</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-mg-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="post-img">
-                                <img src="img/post-slide/p-slide-3.jpg" alt="post img">
-                                <div class="title-tag">
-                                    <a href="#">Rever Carv</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="title">
-                                <a href="#">Our life goes on like a wave of a river with a wonderful feeling</a>
-                            </div>
-                            <p>15-Augu-2020 | 5mins</p>
-                            <div class="link">
-                                <a href="#">Continue Reading......</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-mg-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="post-img">
-                                <img src="img/post-slide/p-slide-4.jpg" alt="post img">
-                                <div class="title-tag">
-                                    <a href="#">Asstes</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="title">
-                                <a href="#">Diamond is one of our most valuable assets, we consider it very valuable</a>
-                            </div>
-                            <p>15-Augu-2020 | 5mins</p>
-                            <div class="link">
-                                <a href="#">Continue Reading......</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-mg-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="post-img">
-                                <img src="img/post-slide/p-slide-2.jpg" alt="post img">
-                                <div class="title-tag">
-                                    <a href="#">Lifestyle</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="title">
-                                <a href="#">Ten color pallets You can use it in your design at any time</a>
-                            </div>
-                            <p>15-Augu-2020 | 5mins</p>
-                            <div class="link">
-                                <a href="#">Continue Reading......</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Post Slide End -->
-    <!-- BG Search Start -->
-    <section class="bg-search">
-        <div class="container">
-            <div class="search-bar" data-background="img/bg/bg-2.jpg">
-                <div class="row align-items-center">
-                    <div class="col-lg-4">
-                        <div class="title">
-                            <h5>Subscribe Our Newsletter</h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <form action="#">
-                            <input type="email" placeholder="Email address">
-                            <button type="submit">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- BG Search End -->
-    <!-- Popular Post Start -->
-    <section class="popular-post">
-        <div class="container">
-            <div class="title-shap">
-                <div class="row align-items-center">
-                    <div class="col-lg-10">
-                        <h5>Popular Posts</h5>
-                    </div>
-                    <div class="col-lg-2">
-                        <a href="#">View all</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="post-card">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="post-img">
-                                    <img src="img/p-post/p-post-1.jpg" alt="p-post">
-                                    <div class="title-tag">
-                                        <a href="#">Postman</a>
-                                    </div>
-                                </div>
-                                <div class="post-title">
-                                    <div class="title">
-                                        <a href="#">The story of a postal peon lost as the world improved. Heart breking story</a>
-                                    </div>
-                                    <p>Suscipit fringilla quod, ab mus laoreet? Consequuntur hymenaeos, laoreet Dignissim nostra laudantium luctus, ratione.</p>
-                                    <div class="link">
-                                        <a href="#">Continue Reading......</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="post-card">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="post-img">
-                                    <img src="img/p-post/p-post-2.jpg" alt="p-post">
-                                    <div class="title-tag">
-                                        <a href="#">Design</a>
-                                    </div>
-                                </div>
-                                <div class="post-title">
-                                    <div class="title">
-                                        <a href="#">Here are some examples of how Adobe will design with XD? start learning</a>
-                                    </div>
-                                    <p>Suscipit fringilla quod, ab mus laoreet? Consequuntur hymenaeos, laoreet Dignissim nostra laudantium luctus, ratione.</p>
-                                    <div class="link">
-                                        <a href="#">Continue Reading......</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-read">
-                    <a href="#">Read More</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Popular Post End -->
+
     <!-- Top Post Start -->
     <section class="top-post">
         <div class="container">
             <div class="title-shap">
-                <h5>Top posts</h5>
+                <h5>Derniers Posts</h5>
             </div>
             <div class="row">
+                @foreach ($latest_posts as $post)
                 <div class="col-md-6 col-lg-4">
                     <div class="post-card">
                         <div class="card">
                             <div class="card-body">
                                 <div class="post-img">
-                                    <img src="img/t-post/t-post-1.jpg" alt="p-post">
+                                    <img src="{{ asset($post->image) }}" alt="p-post">
                                     <div class="title-tag">
-                                        <a href="#">Beauty</a>
+                                        <a href="#">{{ $post->category->name }}</a>
                                     </div>
                                 </div>
                                 <div class="post-title">
                                     <div class="title">
-                                        <a href="#">Beauty is our natural song but you can make it better...</a>
+                                        <a href="{{ route('details-post', $post->slug) }}">{{ limitText($post->description) }}</a>
                                     </div>
                                     <p>15-Augu-2020 | 5mins</p>
                                 </div>
@@ -230,106 +31,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="post-card">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="post-img">
-                                    <img src="img/t-post/t-post-2.jpg" alt="p-post">
-                                    <div class="title-tag">
-                                        <a href="#">Spa</a>
-                                    </div>
-                                </div>
-                                <div class="post-title">
-                                    <div class="title">
-                                        <a href="#">Among flowers, we love roses the most, and it is a symbol of our beauty</a>
-                                    </div>
-                                    <p>15-Augu-2020 | 5mins</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="post-card">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="post-img">
-                                    <img src="img/t-post/t-post-3.jpg" alt="p-post">
-                                    <div class="title-tag">
-                                        <a href="#">Lifestyle</a>
-                                    </div>
-                                </div>
-                                <div class="post-title">
-                                    <div class="title">
-                                        <a href="#">Why girls like outfits so much, why beauty is to be enhanced?</a>
-                                    </div>
-                                    <p>15-Augu-2020 | 5mins</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="post-card">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="post-img">
-                                    <img src="img/t-post/t-post-4.jpg" alt="p-post">
-                                    <div class="title-tag">
-                                        <a href="#">Love</a>
-                                    </div>
-                                </div>
-                                <div class="post-title">
-                                    <div class="title">
-                                        <a href="#">Love gives us the gift of some beautiful days and moments</a>
-                                    </div>
-                                    <p>15-Augu-2020 | 5mins</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="post-card">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="post-img">
-                                    <img src="img/t-post/t-post-5.jpg" alt="p-post">
-                                    <div class="title-tag">
-                                        <a href="#">Lifestyle</a>
-                                    </div>
-                                </div>
-                                <div class="post-title">
-                                    <div class="title">
-                                        <a href="#">The essence of living life is to enjoy some beautiful moments</a>
-                                    </div>
-                                    <p>15-Augu-2020 | 5mins</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="post-card">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="post-img">
-                                    <img src="img/t-post/t-post-6.jpg" alt="p-post">
-                                    <div class="title-tag">
-                                        <a href="#">Lifestyle</a>
-                                    </div>
-                                </div>
-                                <div class="post-title">
-                                    <div class="title">
-                                        <a href="#">Gifts are a beautiful rule that binds people together</a>
-                                    </div>
-                                    <p>15-Augu-2020 | 5mins</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </section>

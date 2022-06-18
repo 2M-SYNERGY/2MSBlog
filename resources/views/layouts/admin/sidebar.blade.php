@@ -1,6 +1,6 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link text-center">
+    <a href="{{ route('index') }}" target="_blank" class="brand-link text-center">
       <span class="brand-text font-weight-bold">{{ config('app.name') }}</span>
     </a>
 
@@ -42,7 +42,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{ route('admin.post.index') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Articles</p>
                 </a>

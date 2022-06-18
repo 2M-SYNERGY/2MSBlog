@@ -16,22 +16,22 @@
     <!-- All Device Favicon -->
     <link rel="icon" href="img/logo/favicon.png">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <!-- Animate -->
-    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
     <!-- Slick -->
-    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="{{ asset('css/slick.css') }}">
     <!-- Selection Sharer -->
-    <link rel="stylesheet" href="css/selection-sharer.css">
+    <link rel="stylesheet" href="{{ asset('css/selection-sharer.css') }}">
     <!-- Normalize -->
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="{{ asset('css/normalize.css') }}">
     <!-- Default -->
-    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="{{ asset('css/default.css') }}">
     <!-- Style -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
     <!-- Responsive -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 </head>
 
 <body>
@@ -44,21 +44,21 @@
     </div>
 
     <!-- jQuery -->
-    <script src="js/vendor/jquery-3.5.1.min.js"></script>
+    <script src="{{asset('js/vendor/jquery-3.5.1.min.js') }}"></script>
     <!-- Bootstrap -->
-    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="{{asset('js/vendor/bootstrap.min.js') }}"></script>
     <!-- Popper -->
-    <script src="js/vendor/popper.min.js"></script>
+    <script src="{{asset('js/vendor/popper.min.js') }}"></script>
     <!-- Retina -->
-    <script src="js/vendor/retina.min.js"></script>
+    <script src="{{asset('js/vendor/retina.min.js') }}"></script>
     <!-- Slick -->
-    <script src="js/vendor/slick.min.js"></script>
+    <script src="{{asset('js/vendor/slick.min.js') }}"></script>
     <!-- Queryloader2 -->
-    <script src="js/vendor/queryloader2.min.js"></script>
+    <script src="{{asset('js/vendor/queryloader2.min.js') }}"></script>
     <!-- Selection Sharer -->
-    <script src="js/vendor/selection-sharer.js"></script>
+    <script src="{{asset('js/vendor/selection-sharer.js') }}"></script>
     <!-- Index -->
-    <script src="js/index.js"></script>
+    <script src="{{asset('js/index.js') }}"></script>
 </body>
 
 </html>
