@@ -20,4 +20,5 @@ Route::group([
     'as' => 'admin.'
 ], function () {
     Route::get('/', 'Backend\AppController@index')->name('dashboard');
+    Route::resource('category', 'Backend\CategoryController');
 });

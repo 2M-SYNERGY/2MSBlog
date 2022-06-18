@@ -36,4 +36,8 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function getAvatarAttribute($value) {
+        return (is_null($value)) ? "https://ui-avatars.com/api/?name=" . str_replace(' ', '+', $this->name) : asset($value);
+    }
 }
