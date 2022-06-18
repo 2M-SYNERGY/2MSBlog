@@ -47,10 +47,10 @@ class CategoryController extends Controller
 
         $category = new Category();
         $category->name = $request->name;
-        $category->slug = time(). Str::slug($request->name);
+        $category->slug = time() . Str::slug($request->name);
 
         $category->save();
-        if($category->save()) {
+        if ($category->save()) {
             flashy()->success('Catégorie enrégistrée avec succès');
         } else {
             flashy()->error('Nous avons rencontré une erreur, veuillez réessayer!');
@@ -75,9 +75,10 @@ class CategoryController extends Controller
      * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function edit(Category $category)
+    public function edit($slug)
     {
-        //
+        $category = Category::where('slug', $slug)->first();
+        return view('backend.categories.edit', compact('category'));
     }
 
     /**
@@ -87,9 +88,25 @@ class CategoryController extends Controller
      * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Category $category)
+    public function update(Request $request, $slug)
     {
-        //
+        $request->validate([
+            'name' => 'required|min:3'
+        ], [
+            'name.required' => "Le champ nom de la catégorie est obligatoire",
+            'name.min' => "Vous devez entrer au minimum 3 caractères"
+        ]);
+
+        $category = Category::where('slug', $slug)->first();
+        $category->name = $request->name;
+
+        $category->save();
+        if ($category->save()) {
+            flashy()->success('Catégorie mise à jour avec succès');
+        } else {
+            flashy()->error('Nous avons rencontré une erreur, veuillez réessayer!');
+        }
+        return redirect()->route('admin.category.index');
     }
 
     /**
@@ -98,8 +115,10 @@ class CategoryController extends Controller
      * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Category $category)
+    public function destroy($id)
     {
-        //
+        Category::destroy($id);
+        flashy()->success('Catégorie mise à jour avec succès');
+        return redirect()->route('admin.category.index');
     }
 }
